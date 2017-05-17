@@ -49,7 +49,7 @@ def run_test():
 
     ViewInvoicesButton = driver.find_element_by_xpath("//*[@id='plans']/div[1]/div/a")
     ViewInvoicesButton.click()
-    sleep()
+    sleep(20)
 
     # Row=driver.find_element_by_xpath('//table[@id="transactionsTable"]/tbody/tr')
     # for rowElement in driver.find_element_by_xpath('//table[@id="transactionsTable"]/tbody/tr'):
